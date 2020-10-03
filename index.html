@@ -24,11 +24,15 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3258212577');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1354640713');
       });
     }
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz6OC20zv4z-RWJQgFJR6dutSThRch2CU"></script>
+  <script defer
+    src="https://maps.googleapis.com/maps/api/js?libraries=places
+        &key=AIzaSyDz6OC20zv4z-RWJQgFJR6dutSThRch2CU&callback=initMap">
+</script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
